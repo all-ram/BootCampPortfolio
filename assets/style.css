@@ -1,18 +1,84 @@
 :root {
-    --primary: #C0D8C0;
+    --primary: #A4B494;
     --secondary: #F5EEDC;
     --color3: #DD4A48;
     --color4: #ECB390;
+    /* --shadow1: 1px 1px var(--color3); */
+    /* --shadow2: 1px 1px var(--secondary); */
+    /* --shadow3: 1px 1px var(--color4); */
 }
 
 * {
     background-color: var(--primary);
 }
 
+body {
+    background-color: var(--primary) !important;
+}
+
 .navbar-nav {
     align-items: flex-end;
 }
 
+.navbar-nav a {
+    color: var(--color3) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url(./images/toggler-icon.png) !important;
+    width: 2em !important;
+    height: 2em !important;
+
+}
+
+.navbar-toggler{
+    border-color: var(--color4) !important;
+    color: var(--secondary) !important;
+}
+
 #navbarStyle {
     justify-content: flex-end;
+}
+
+#intro {
+    margin-top: 10%;
+    margin-left: 7%;
+}
+
+h5 {
+    font-size: 36px !important;
+    color: var(--color4);
+    margin-left: 7%;
+    text-shadow: var(--shadow2);
+}
+
+h1 {
+    color: var(--color3);
+    font-size: 108px !important;
+    margin-left: 10%;
+    font-weight: 500;
+}
+
+h2 {
+    margin-left: 13%;
+    font-size: 60px !important;
+    color: var(--secondary);
+    text-shadow: var(--shadow1) !important;
+}
+
+h6 {
+    margin-left: 17%;
+    margin-top: 10px !important;
+    color: var(--secondary);
+    text-shadow: var(--shadow1);
+}
+
+.btn-group-vertical {
+    float: right;
+    width: 10%;
+}
+
+.btn img {
+    height: 40px;
+    width: 40px;
 }
