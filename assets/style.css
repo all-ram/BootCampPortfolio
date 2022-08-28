@@ -1,3 +1,18 @@
+:root {
+    --primary: #C0D8C0;
+    --secondary: #F5EEDC;
+    --color3: #DD4A48;
+    --color4: #ECB390;
+}
+
 * {
-    background-color: aqua;
+    background-color: var(--primary);
+}
+
+.navbar-nav {
+    align-items: flex-end;
+}
+
+#navbarStyle {
+    justify-content: flex-end;
 }
