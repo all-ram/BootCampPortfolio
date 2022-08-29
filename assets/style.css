@@ -150,3 +150,24 @@ body {
 #weatherCard {
     width: 100% !important;
 }
+
+#contactMe {
+    margin-top: 400px;
+    border: 2px solid var(--color4);
+    padding: 36px;
+}
+
+.col-sm-12 {
+    color: var(--color3);
+}
+
+.col-sm {
+    color: var(--secondary);
+    border: 2px solid var(--color4);
+    margin-top: 12px !important;
+}
+
+footer {
+    padding: 100px;
+    text-align: center;
+}
