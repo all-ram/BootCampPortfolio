@@ -121,3 +121,32 @@ body {
 #aboutMe-Content img:hover {
     opacity: 1.0;
 }
+
+#workCards {
+    margin-top: 400px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.card {
+    color: var(--secondary);
+    border-color: var(--color4) !important;
+}
+
+.card-link {
+    color: var(--color3);
+}
+
+.card-img-top {
+    height: 30vh;
+    object-fit: cover !important;
+}
+
+.card-img-bottom {
+    height: 35vh;
+    object-fit: cover !important;
+}
+
+#weatherCard {
+    width: 100% !important;
+}
