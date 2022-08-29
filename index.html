@@ -23,10 +23,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarStyle">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">About Me</a>
-            <a class="nav-link" href="#">Work</a>
-            <a class="nav-link" href="#">Contact Me</a>
-            <a class="nav-link" href="#">Resume</a>
+            <a class="nav-link" aria-current="page" href="#aboutMe">About Me</a>
+            <a class="nav-link" href="#workCards">Work</a>
+            <a class="nav-link" href="#contactMe">Contact Me</a>
+            <a class="nav-link" href="./assets/Allan_Ramirez_Resume.PDF" target="_blank"
+              rel="noopener noreferrer">Resume</a>
           </div>
         </div>
       </div>
@@ -42,10 +43,11 @@
     <h6>I will be able to build robust web applications.</h6>
   </div>
   <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-    <button type="button" class="btn" id="githubLink">
+    <button onclick="window.open('https://github.com/all-ram' , '_blank')" type="button" class="btn" id="githubLink">
       <img src="./assets/images/github-icon-9.png" alt="github icon">
     </button>
-    <button type="button" class="btn">
+    <button onclick="window.open('https://www.linkedin.com/in/allan-ramirez-38423924a/' , '_blank')" type="button"
+      class="btn">
       <img src="./assets/images/linkedinlogo.png" alt="linkedin icon" id="linkedinLink">
     </button>
   </div>
@@ -73,12 +75,14 @@
   <div class="row row-cols-1 row-cols-md-2 g-4" id="workCards">
     <div class="col">
       <div class="card">
-        <img src="./assets/images/rhythmboozeSS.png" class="card-img-top" alt="image project preview">
+        <a href="https://all-ram.github.io/RhythmBooze/" target="_blank"><img src="./assets/images/rhythmboozeSS.png" class="card-img-top" alt="image project preview">
+        </a>
         <div class="card-body">
           <h5 class="card-title">
-            <a href="#" class="card-link">Rhythm & Booze</a>
+            <a href="https://all-ram.github.io/RhythmBooze/" target="_blank" class="card-link">Rhythm & Booze</a>
           </h5>
-          <p class="card-text">This is the first major project I completed alongside some classmates. It is an application
+          <p class="card-text">This is the first major project I completed alongside some classmates. It is an
+            application
             where the user inputs a type of liquor and a genre of music and receives a cocktail with ingredients and
             a playlist. Which are then locally stored and displayed in a card.</p>
         </div>
@@ -88,11 +92,14 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">
-            <a href="#" class="card-link">Horiseon Web Refactor</a>
+            <a href="https://all-ram.github.io/HoriseonCodeRefactor/" target="_blank" class="card-link">Horiseon Web Refactor</a>
           </h5>
-          <p class="card-text">This project was an exercise to refactor a client's website to increase accessiblity for users. I also optimized the css styling by consolidating and organizing selectors to follow semantic structure.</p>
+          <p class="card-text">This project was an exercise to refactor a client's website to increase accessiblity for
+            users. I also optimized the css styling by consolidating and organizing selectors to follow semantic
+            structure.</p>
         </div>
-        <img src="./assets/images/horiseon-refactor.png" class="card-img-bottom" alt="image project preview">
+        <a href="https://all-ram.github.io/HoriseonCodeRefactor/" target="_blank"><img src="./assets/images/horiseon-refactor.png" class="card-img-bottom" alt="image project preview">
+        </a>
       </div>
     </div>
     <div class="col" id="weatherCard">
@@ -102,7 +109,8 @@
           <h5 class="card-title">
             <a href="#" class="card-link">Cloudy With a Chance</a>
           </h5>
-          <p class="card-text">This project is an interactive website that tells the user the expected weather using a weather API. </p>
+          <p class="card-text">This project is an interactive website that tells the user the expected weather using a
+            weather API. </p>
         </div>
       </div>
     </div>
